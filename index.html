@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/_normalize.scss">
+<style>
+.shapka{
+    background-color: rgb(198, 207, 207);
+    display: flex;
+    width: 660px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.osnova{
+    position: relative;
+    background-color: rgb(236, 236, 178);
+    display: flex;
+    width: 460px;
+    height: 320px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.child1{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 190px;
+    left: 10px;
+}
+.child2{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 190px;
+    right: 10px;
+}
+.child3{
+    position: absolute;
+    display: flex;
+    width: 440px;
+    height: 70px;
+    background-color: rgb(236, 223, 77);
+    align-items: center;
+    justify-content: space-around;
+    top: 250px;
+}
+.bok{
+    background-color: rgb(169, 237, 145);
+    display: flex;
+    height: 320px;
+    width: 200px;
+    justify-content: center;
+    position: absolute;
+    top: 58px;
+    right: 73px;
+    padding-top: 30px;
+}
+.futer{
+    background-color: rgb(198, 207, 207);
+    display: flex;
+    width: 660px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.futerchild1{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 20px;
+}
+.futerchild2{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 183px;
+}
+.futerchild3{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 344px;
+}
+.futerchild4{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    top: 420px;
+    left: 505px;
+}
+body {
+    font-weight: bold;
+}
+</style>
+</head>
+
+
+<body style="font-family:sans-serif, Verdana, sans-serif">
+    
+    <div class="shapka">Шапка страницы</div>
+    <div class="osnova">Основная часть
+    <div class="child1">Еще 1</div>
+    <div class="child2">Еще 2</div>
+    <div class="child3">Еще 3</div>
+</div>
+    <div class="bok">Боковая область</div>
+<div class="futer">     
+    <div class="futerchild1">Секция футера 1</div>
+    <div class="futerchild2">Секция футера 2</div>
+    <div class="futerchild3">Секция футера 3</div>
+    <div class="futerchild4">Секция футера 4</div>
+</div>
+</body>
+</html>
